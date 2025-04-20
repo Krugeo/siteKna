@@ -117,4 +117,23 @@ footer {
   .video1 {
     width: 90%;
   }
+main {
+    padding: 0 15px;
+  }
+
+  body {
+    padding: 10px;
+  }
+.image-row, .video-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo, .video2 {
+    width: 90%;
+  }
+
+  .video1 {
+    width: 90%;
+  }
 }
