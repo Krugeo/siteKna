@@ -96,6 +96,8 @@ footer {
   width: 35%;
   margin: 20px auto;
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .video-row {
@@ -109,4 +111,10 @@ footer {
 .video2 {
   width: 30%;
   min-width: 250px;
+}
+
+@media (max-width: 600px) {
+  .video1 {
+    width: 90%;
+  }
 }
